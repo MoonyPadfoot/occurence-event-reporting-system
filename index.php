@@ -8,13 +8,14 @@
   <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Occurence.</title>
   <link rel="stylesheet" href="public/css/bulma.css">
+  <link rel="stylesheet" href="public/css/styles.css">
 </head>
 <body>
   <nav class="navbar">
     <div class="navbar-brand">
-      <p class="is-size-3">Occurrence.</p>
+      <p class="brand is-size-3 has-text-primary">Occurrence.</p>
     </div>
     <div class="navbar-menu">
       <div class="navbar-end">
@@ -28,6 +29,8 @@
       </div>
     </div>
   </nav>
+
+  <!-- Sign Up Modal -->
   <div id="signupModal" class="modal">
     <div class="modal-background"></div>
     <div class="modal-card">
@@ -44,6 +47,8 @@
       </footer>
     </div>
   </div>
+
+  <!-- Log In Modal -->
   <div id="loginModal" class="modal">
     <div class="modal-background"></div>
     <div class="modal-card">
@@ -60,6 +65,12 @@
       </footer>
     </div>
   </div>
+
+  <!-- Start of content -->
+  <header>
+
+  </header>
+
   <script src="public/js/jquery-3.2.1.js"></script>
   <script src="public/js/scripts.js"></script>
 </body>
