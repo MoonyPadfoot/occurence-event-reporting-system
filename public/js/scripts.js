@@ -30,6 +30,7 @@ $(document).ready(() => {
 
   $toggle.click(function() {
     $(this).toggleClass('is-active');
+    $('#signup').toggleClass('is-inverted')
     $menu.toggleClass('is-active');
   });
 })

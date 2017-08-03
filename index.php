@@ -36,10 +36,20 @@
       </header>
     </div>
     <div class="hero-body">
-
+      <div class="container has-text-centered">
+        <h1 class="is-size-1 title">Occurence.</h1>
+        <h2 class="is-size-5 subtitle">A simple web application to report incidents around you.</h2>
+        <a href="" class="button is-primary btnLink">SIGN UP</a>
+        <a href="" class="button is-primary is-inverted btnLink">LOG IN</a>
+      </div>
     </div>
   </div>
 
+  <!-- Start of content -->
+  <section>
+    <div class="content"></div>
+  </section>
+  <div style="height: 1000px;"></div>
 
   <!-- Sign Up Modal -->
   <div id="signupModal" class="modal">
@@ -76,9 +86,6 @@
       </footer>
     </div>
   </div>
-
-  <!-- Start of content -->
-  <div style="height: 1000px;"></div>
 
   <script src="public/js/jquery-3.2.1.js"></script>
   <script src="public/js/scripts.js"></script>
