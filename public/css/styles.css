@@ -1,11 +1,28 @@
-.navbar {
+.hero .hero-head {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 1px 2px rgba(0,0,0,0.23);
+  border: none;
+  padding: 20px 0px;
+  transition: all 100ms ease-in-out;
 }
 
-.brand{
-  padding-left: 16px;
+.hero .hero-head.scrolled{
+  background-color: rgba(255,255,255,0.2);
+  padding: 0px;
+}
+
+.hero.is-primary .nav{
+  box-shadow: none;
+}
+
+.banner-logo{
+  padding-left: 10px;
+}
+
+.banner-img{
+  background-image: url("../images/banner-img.jpeg");
+  background-size: cover;
+  background-position: center;
 }

@@ -13,22 +13,33 @@
   <link rel="stylesheet" href="public/css/styles.css">
 </head>
 <body>
-  <nav class="navbar">
-    <div class="navbar-brand">
-      <p class="brand is-size-3 has-text-primary">Occurrence.</p>
-    </div>
-    <div class="navbar-menu">
-      <div class="navbar-end">
-        <a class="navbar-item" >HOME</a>
-        <a id="login" class="navbar-item" >LOGIN</a>
-        <div class="navbar-item">
-          <p class="control">
-            <a id="signup" class="button is-primary">SIGN UP</a>
-          </p>
+  <div class="hero is-fullheight is-primary banner-img">
+    <div id = "nav-scroll" class="hero-head">
+      <header class="nav">
+        <div class="container">
+          <div class="nav-left">
+            <p class="is-size-3 has-text-primary banner-logo">Occurrence.</p>
+          </div>
+          <span class="nav-toggle" id="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <div class="nav-right nav-menu" id="nav-menu">
+            <a class="nav-item links">HOME</a>
+            <a id="login" class="nav-item links" >LOGIN</a>
+            <div class="nav-item">
+              <a id="signup" class="button is-primary">SIGN UP</a>
+            </div>
+          </div>
         </div>
-      </div>
+      </header>
     </div>
-  </nav>
+    <div class="hero-body">
+
+    </div>
+  </div>
+
 
   <!-- Sign Up Modal -->
   <div id="signupModal" class="modal">
@@ -67,9 +78,7 @@
   </div>
 
   <!-- Start of content -->
-  <header>
-
-  </header>
+  <div style="height: 1000px;"></div>
 
   <script src="public/js/jquery-3.2.1.js"></script>
   <script src="public/js/scripts.js"></script>
