@@ -17,20 +17,27 @@ $(document).ready(() => {
   $(window).scroll(() => {
     if($(window).scrollTop() > 0){
       $('#nav-scroll').addClass('scrolled')
-      // $('.links').addClass('has-text-grey')
+      $('.links').css({
+        color: '#455a64'
+      })
     } else {
       $('#nav-scroll').removeClass('scrolled')
-      // $('.links').removeClass('has-text-grey')
+      $('.links').css({
+        color: 'white'
+      })
     }
   })
 
   //Toggle navbar
-  var $toggle = $('#nav-toggle');
-  var $menu = $('#nav-menu');
+  var $toggle = $('#nav-toggle')
+  var $menu = $('#nav-menu')
 
   $toggle.click(function() {
-    $(this).toggleClass('is-active');
+    $(this).toggleClass('is-active')
     $('#signup').toggleClass('is-inverted')
-    $menu.toggleClass('is-active');
-  });
+    $menu.toggleClass('is-active')
+    $('.links').css({
+      color: 'white'
+    })
+  })
 })
