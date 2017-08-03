@@ -9,6 +9,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Occurence.</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="public/css/bulma.css">
   <link rel="stylesheet" href="public/css/styles.css">
 </head>
@@ -46,10 +47,43 @@
   </div>
 
   <!-- Start of content -->
-  <section>
-    <div class="content"></div>
+  <section class="colorSection addPadding">
+    <div class="columns">
+      <div class="column is-one-third">
+        <span class="icon is-large">
+          <i class="fa fa-location-arrow"></i>
+        </span>
+        <p class="is-size-6 has-text-centered">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi laboriosam placeat voluptatem! Deleniti eaque eos et excepturi nemo, saepe sint voluptatibus! Asperiores doloribus dolorum fugit?</p>
+      </div>
+      <div class="column">
+        <span class="icon is-large">
+          <i class="fa fa-phone"></i>
+        </span>
+        <p class="is-size-6 has-text-centered">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deleniti earum eius esse, harum impedit neque nesciunt porro possimus quaerat quo ratione recusandae tempore ut!</p>
+      </div>
+      <div class="column">
+        <span class="icon is-large">
+          <i class="fa fa-rss"></i>
+        </span>
+        <p class="is-size-6 has-text-centered">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cumque et eveniet explicabo facilis non nostrum ratione, reiciendis, rem suscipit tempore velit veritatis vitae. Necessitatibus.</p>
+      </div>
+    </div>
   </section>
-  <div style="height: 1000px;"></div>
+  <div style="height: 500px;"></div>
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Occurence</strong> by <a href="https://eyedeceiver03.github.io/" target="_blank">Joshua Bienes</a>, Renier Antonio and Anthony Villaflores.
+        </p>
+        <p>
+          <a class="icon" href="https://github.com/eyedeceiver03/occurence-event-reporting-system" target="_blank">
+            <i class="fa fa-github"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
 
   <!-- Sign Up Modal -->
   <div id="signupModal" class="modal">
